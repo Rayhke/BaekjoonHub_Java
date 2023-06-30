@@ -20,8 +20,8 @@ c언어로 치면 [printf] 와 같은 기능이며, 만약 [System.out.println] 
 그리고 안타까운 소식은, c언어는 [scanf]을 c++언어는 [cin]를 쓰면 간단했지만...
 이것 만큼은 답정너로 나의 머슬 메모리로 외우길 바란다.
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.io.BufferedReader;									// 여기서 * 과 지정하는 것의 차이는
+import java.io.InputStreamReader;								// * 는 선언한 [import java.??.] 기능을 다 끌어오는 것이지만
 import java.util.StringTokenizer;
 
 public class Main {
