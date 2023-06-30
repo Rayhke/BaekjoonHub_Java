@@ -22,8 +22,8 @@ c언어로 치면 [printf] 와 같은 기능이며, 만약 [System.out.println] 
 
 import java.io.BufferedReader;									// 여기서 * 과 지정하는 것의 차이는
 import java.io.InputStreamReader;								// * 는 선언한 [import java.??.] 기능을 다 끌어오는 것이지만
-import java.util.StringTokenizer;
-
+import java.util.StringTokenizer;								// 특정 기능을 지정하여 이름을 지정하면 그것만 쓰도록 하기 때문에
+												// 메모리, 시간 등 효율이 좋다. 다만 초반에 어려울 것이기에 잘 고려해서 쓸 것
 public class Main {
 	public static void main(String[] args) throws Exception {
 		BufferedReader s = new BufferedReader(new InputStreamReader(System.in));
