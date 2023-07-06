@@ -4,7 +4,6 @@ import java.io.InputStreamReader;   // 이하 동일
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader p = new BufferedReader(new InputStreamReader(System.in));
-        //Stack <Integer> stack = new Stack<>();
         int a, b, c = -1;
         String s;
         a = Integer.parseInt(p.readLine());
