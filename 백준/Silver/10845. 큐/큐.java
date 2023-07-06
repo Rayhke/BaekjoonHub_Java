@@ -1,9 +1,10 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.io.BufferedReader;      // 빠른 입력을 받기 위해 사용
+import java.io.InputStreamReader;   // 이하 동일
 
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader p = new BufferedReader(new InputStreamReader(System.in));
+        //Stack <Integer> stack = new Stack<>();
         int a, b, c = -1;
         String s;
         a = Integer.parseInt(p.readLine());
@@ -17,9 +18,9 @@ public class Main {
             } else if (s.equals("pop")) {
                 if (c != -1) {
                     System.out.println(d[0]);
-                    for(int m = 0; m < c; m++) { d[m] = d[m + 1]; }
-                    c--;
-                } else { System.out.println(-1); }
+                    for(int m = 0; m < c; m++) { d[m] = d[m + 1]; } // 굳이 m < c 까지 범위를 포함 시킨 이유가 무엇이냐?
+                    c--;                                            // 일부로 배열 크기를 a + 1 로 선언 했기에
+                } else { System.out.println(-1); }                  // 사실 보이지 않지만 가장 끝자리 배열 값이 ' 0 ' 이다.
             } else if (s.equals("size")) {
                 if (c != -1) { System.out.println(c + 1); }
                 else { System.out.println(0); }
