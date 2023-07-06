@@ -9,8 +9,8 @@ public class Main {
         a = Integer.parseInt(p.readLine());
         int[] d = new int[a + 1];
         for (int n = 0; n < a; n++) {
-            String[] s2 = p.readLine().split(" ");
-            s = s2[0];
+            String[] s2 = p.readLine().split(" ");        // 사실 제일 어려웠던 것은 자바로 띄어쓰기 and 줄 바꿈의
+            s = s2[0];                                    // 입력 방식을 구현하는 것이 가장 어려웠다...
             if (s.equals("push")) {
                 b = Integer.parseInt(s2[1]);
                 d[++c] = b;
