@@ -30,3 +30,7 @@ public class Main {
         }
     }
 }
+/* ■ 설명 ■
+전형적인 스택(stack)을 구현한 코드이다.
+import 에 stack 이 있긴 하지만, 배제하고 구현함
+*/
