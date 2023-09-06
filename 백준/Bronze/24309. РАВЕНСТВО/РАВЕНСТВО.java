@@ -5,7 +5,6 @@ import java.math.BigInteger;
 public class Main {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		// String[] s = br.readLine().split(" ");
 		BigInteger a = new BigInteger(br.readLine()),
 				b = new BigInteger(br.readLine()),
 				c = new BigInteger(br.readLine());
