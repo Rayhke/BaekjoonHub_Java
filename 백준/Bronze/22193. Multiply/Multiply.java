@@ -6,9 +6,10 @@ import java.math.BigInteger;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String[] input = br.readLine().split(" ");
-        int N = Integer.parseInt(input[0]), M = Integer.parseInt(input[1]);
-        BigInteger A = new BigInteger(br.readLine()), B = new BigInteger(br.readLine());
+        BigInteger A, B;
+        br.readLine();
+        A = new BigInteger(br.readLine());
+        B = new BigInteger(br.readLine());
         System.out.print(A.multiply(B));
     }
 }
